@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"myblog157cdd16": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

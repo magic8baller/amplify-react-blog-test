@@ -1,0 +1,59 @@
+{
+	"projectPath": "/Users/leslie/Desktop/my-blog",
+	"projectInfo": {
+		"ProjectName": "my-blog",
+		"ProjectPath": "/Users/leslie/Desktop/my-blog",
+		"InitializationTime": "",
+		"LastConfigurationTime": "",
+		"LastNPMInstallTime": "",
+		"FrontendLastBuildTime": "",
+		"LastPublishTime": "",
+		"BackendLastSyncTime": "",
+		"BackendLastBuildTime": "",
+		"BackendLastPushTime": "",
+		"BackendProjectID": "",
+		"BackendProjectName": "",
+		"BackendProjectConsoleUrl": "",
+		"BackendProjectCreationTime": "",
+		"BackendProjectLastUpdatedTime": "",
+		"Framework": "react"
+	},
+	"packageJson": {
+		"name": "my-blog",
+		"version": "0.1.0",
+		"private": true,
+		"dependencies": {
+			"aws-amplify": "^1.2.2",
+			"aws-amplify-react": "^2.5.2",
+			"bootstrap-4-react": "0.0.59",
+			"react": "^16.10.2",
+			"react-dom": "^16.10.2",
+			"react-router-dom": "^5.1.2",
+			"react-scripts": "3.2.0"
+		},
+		"scripts": {
+			"start": "react-scripts start",
+			"build": "react-scripts build",
+			"test": "react-scripts test",
+			"eject": "react-scripts eject"
+		},
+		"eslintConfig": {
+			"extends": "react-app"
+		},
+		"browserslist": {
+			"production": [
+				">0.2%",
+				"not dead",
+				"not op_mini all"
+			],
+			"development": [
+				"last 1 chrome version",
+				"last 1 firefox version",
+				"last 1 safari version"
+			]
+		}
+	},
+	"framework": "react",
+	"initialStage": "clean-slate",
+	"strategy": "create"
+}
