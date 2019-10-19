@@ -3,8 +3,8 @@ import {Navbar} from 'bootstrap-4-react';
 import React, {Component} from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 import {HomeItems, LoginItems} from './Nav/NavItems';
-import {SignOut} from 'aws-amplify-react'
-
+// import {SignOut} from 'aws-amplify-react'
+import JSignOut from './auth/JSignOut'
 class Navigator extends Component {
 
 	render () {
@@ -23,7 +23,7 @@ class Navigator extends Component {
 						</HashRouter>
 					</Navbar.Nav>
 					<Navbar.Text>Γεια σου κόσμε</Navbar.Text>
-					<SignOut />
+					<JSignOut />
 				</Navbar.Collapse>
 			</Navbar>
 		)
